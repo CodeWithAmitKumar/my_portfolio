@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/icin.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Amit Kumar Patra">Amit Kumar Patra</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:apply.amitpatra@gmail.com" class="contact-link">apply.amitpatra@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 8984972877</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-08-19">August 19, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Baripada , Mayurbhanj , Odisha , India </address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/profile.php?id=100032399091505" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/amit-web-developer/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+              
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/CodeWithAmitKumar" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>Hello!👋  I'm Amit, a spirited web developer with a keen eye for design and a passion for coding. Currently, I'm diving deep into the world of Computer Science through my BTech program, while also immersing myself in a hands-on internship that's shaping my skills and sharpening my expertise.</p>
+
+          <p>I thrive on challenges and am always on the lookout for new technologies and frameworks that can elevate my projects. My journey is driven by curiosity, innovation, and a relentless pursuit of excellence. I firmly believe in the power of collaboration and the magic that happens when great minds come together.</p>
+
+        <p>Every line of code I write is a step towards mastering the art of web development. I thrive on challenges and am always on the lookout for new technologies and frameworks that can take my projects to the next level. My journey is driven by curiosity, innovation, and a relentless pursuit of excellence.</p>
+        <p>Let’s Connect! Whether you're a fellow tech enthusiast, a seasoned developer, or someone with a brilliant idea, I'm eager to brainstorm, collaborate, and create extraordinary solutions that make a difference. Together, we can turn ideas into reality and drive innovation forward. 😊</p>
+            
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+           
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+          
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Reviews</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Snehasis Behera" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Snehasis Behera</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                   Amit is an excellent web developer who created a video call website for me. His expertise and attention to detail resulted in a seamless and user-friendly experience. Highly recommend his services!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Dipti Das" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Dipti Das</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Amit is a talented web developer who created a money tracker website for me. His skill and dedication ensured a smooth and efficient user experience. Highly recommend his work!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Rachana Patra" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Rachana Patra</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Amit is an outstanding web developer who created a social media clone website for me. His deep understanding of web technologies and meticulous approach resulted in a highly functional and visually appealing platform. Amit's ability to incorporate modern features and ensure a seamless user experience was impressive. Throughout the project, he maintained excellent communication and delivered on time. I highly recommend Amit for any web development needs!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Dayanidhi Patra" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Dayanidhi Patra</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Amit is a highly skilled web developer who created a fantastic music landing page website for me. His attention to detail and creative design made the site visually appealing and user-friendly. Amit's expertise in web technologies ensured a smooth and responsive experience across all devices. He was professional, communicative, and delivered the project on time. I highly recommend Amit for anyone looking for top-notch web development services!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Dipti Das</h4>
+
+              <time datetime="2021-06-14">14 June, 2024</time>
+
+              <div data-modal-text>
+                <p>
+                  Amit is a highly skilled web developer who created a fantastic music landing page website for me. His attention to detail and creative design made the site visually appealing and user-friendly. Amit's expertise in web technologies ensured a smooth and responsive experience across all devices. He was professional, communicative, and delivered the project on time. I highly recommend Amit for anyone looking for top-notch web development services!
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+       
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Biju Patnaik University Of  Technology Rourkela , Odisha, India</h4>
+
+              <span>2021 — Present</span>
+
+              <p class="timeline-text">
+                Bachelor Of Technology in Computer Science And Engineering
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sai Sadhana Science H S School , Udala	, Odisha , India</h4>
+
+              <span>2019 — 2021</span>
+
+              <p class="timeline-text">
+                Class 12th in PCM
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Shantiniketan New Govt . High School , Bahanada</h4>
+
+              <span>2018 — 2019</span>
+
+              <p class="timeline-text">
+                Class 10th
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> BHARAT INTERN (Full Stack Web Development Intern)	</h4>
+
+              <span>July 2024 - September 2024 </span>
+
+              <p class="timeline-text">
+                •	Worked on a user registration form, blog website, as well as a money tracker app through using HTML, CSS, Node.js, and MongoDB. <br>
+                •	Used the experience to get better professional through optimizing LinkedIn profile and engaging in interactive discussions in LinkedIn. <br>
+                •	Exhibited good discipline and time management to get work done on time in a work from home, global setting. 
+                
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> TECHOCTANET SERVICES PVT LTD (Web Development Intern)	</h4>
+
+              <span>July 2024 - August 2024 </span>
+
+              <p class="timeline-text">
+                	Worked with modern technologies developing and maintaining web applications, collaborated on user-friendly interface design, and participated in code reviews, further developing skills in web development, remote work, debugging, receiving project-related and professional feedback.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">TATA (Data Visualization : Empowering Business with Effective Insights Job Simulation on Forage)</h4>
+
+              <span>July 2023</span>
+
+              <p class="timeline-text">
+                •	Completed a simulation involving creating data visualizations for Tata Consultancy Services. <br>
+                •	Prepared questions for a meeting with client senior leadership. <br>
+                •	Created visuals for data analysis to help executives with effective decision making.
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> ACCENTURE (North America Data Analytics and Visualization Job Simulation on Forage) </h4>
+
+              <span> August 2023</span>
+
+              <p class="timeline-text">
+                •	Completed a simulation focused on advising a hypothetical social media client as a Data Analyst at Accenture. <br>
+                •	Cleaned, modelled and analyzed 7 datasets to uncover insights into content trends to inform strategic decisions. <br>
+                •	Prepared a PowerPoint deck and video presentation to communicate key insights for the client and internal stakeholders.
+                
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> JPMORGAN (Chase Investment Banking Job Simulation on Forage) </h4>
+
+              <span>May 2024</span>
+
+              <p class="timeline-text">
+                •	Identified an ideal M&A target for a client based on an assessment of their strategic and financial criteria. <br>
+                •	Constructed a DCF model to calculate the valuation of the M&A target and adjusted the model to account for a competitor bid and supply chain interruption. <br>
+                •	Created a 2-pager for the client containing a company profile and summary of the auction process.
+
+                
+              </p>
+
+            </li>
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> WALMART (USA Advanced Software Engineering Virtual Experience Program on Forage )</h4>
+
+              <span>July 2024</span>
+
+              <p class="timeline-text">
+                •	Completed the Advanced Software Engineering Job Simulation where I solved difficult technical projects for a variety of teams at Walmart. <br>
+                •	Designed a UML class diagram for a data processor, considering different operating modes and database connections. <br>
+                •	Developed a novel version of a heap data structure in Java for Walmart’s shipping department, showcasing strong problem-solving and algorithmic skills. <br>
+              •	Created an entity relationship diagram to design a new database accounting for all requirements provided by Walmart’s pet department.
+
+
+                
+              </p>
+
+            </li>
+
+
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"><abbr title="Html , Css , JavaScript , React js , Bootstrap , Php , My Sql  "> Web Technology</abbr></h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"><abbr title="C , C++  , Java , Python ">Programming Language (Basic)</abbr></h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"> <abbr title="Generative AI , Data Analysis , Project Planning , Data Modeling , Data Entry , Ai , Microsoft Office , Microsoft Excel , Problem Solving ,     Optimization , Critical Thinking, Data Modeling , Teamwork , Drone photography , Drone Videography , Fundamentals of Ai .">Industry skill</abbr></h5>
+                <data value=" 70 ">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"><abbr title="Vs Code , Git , Github">Developer Tools </abbr></h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/music.png" alt="music page" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Music Landing Page</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/netflix.jpg" alt="netflix" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Netflix Clone</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/vidiocall.jpg" alt="vidio caller" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Vidio Caller</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/todo app.jpg" alt="todo web app" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Todo App</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/money racker.jpg" alt="money tracker" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Money Tracker</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+     
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+         
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14826.793675430848!2d86.62084568727974!3d21.71443323178903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1c49700eb95089%3A0xa9b06523c98ddc72!2sKhunta%2C%20Odisha%20757019!5e0!3m2!1sen!2sin!4v1722854140093!5m2!1sen!2sin" width="400" height="350"  loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit"  data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
